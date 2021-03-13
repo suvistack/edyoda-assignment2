@@ -32,7 +32,7 @@ def game():
 
     for i in range(10):
         printBoard(tic_tac_toe)
-        print("It's your turn," + turn + ".Move to which place?")
+        print("It's your turn," + turn + ".Which place do you want the move?")
 
         move = input()        
 
